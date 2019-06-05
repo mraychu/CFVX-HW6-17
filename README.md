@@ -1,15 +1,15 @@
 # CVFX-HW6-17
 ## Take videos by yourselves
 <!-- {%youtube 12ODHAw2cjM %} -->
-![](https://www.youtube.com/watch?v=12ODHAw2cjM)
+[Our video](https://www.youtube.com/watch?v=12ODHAw2cjM)
 
 ## Make these visual effects with ORB-SLAM2
 <!-- {%youtube PIeZHb3VFAs %} -->
-![](https://www.youtube.com/watch?v=PIeZHb3VFAs)
+[Result One](https://www.youtube.com/watch?v=PIeZHb3VFAs)
 
 ## Make these visual effects with any post-production software
 <!-- {%youtube ZtHPBMFWa18 %} -->
-![](https://www.youtube.com/watch?v=ZtHPBMFWa18)
+[Result Two](https://www.youtube.com/watch?v=ZtHPBMFWa18)
 
 ## Compare above methods
 | metric | ORB-SLAM2 | AE |
@@ -21,6 +21,7 @@
 |潛力   |  win  | lose |
 ## ORB-SLAM2 method process
 會先將用手機拍的video, 藉由opencv拆成一個個frame, 來配合ORB-SLAM2的輸入格式
+
 ![](https://i.imgur.com/tbjpxuY.png)
 
 得到ORB-SLAM2 output 的 trajectory file, 會發現並不是每一個frame都可以成功的抓到
@@ -30,6 +31,7 @@ camera 移動方向, 因此我們用內插法補齊
 接著我們使用unity parse 補齊後的trajectory file,
 創一個canvas播放原影片, 並透過parse後的結果來移動camera 和 canvas
 來製造出visual effects
+
 ![](https://i.imgur.com/A6BPkR3.png)
 
 ## AE method process
@@ -49,7 +51,6 @@ camera 移動方向, 因此我們用內插法補齊
 
 ## Make some special effects based on the pose information, such as rotating, zooming in or out && Insert a 3D model to your video
 
-如最上面的兩個影片內容
-我們成功將3D model 放入影片中並達到旋轉的效果
+如Result One & Two這兩部影片，我們確實地成功將3D model 放入影片中並達到旋轉的效果，雖然結果沒有非常理想，我們認為是較為可惜的地方
 
 
