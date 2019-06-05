@@ -1,11 +1,16 @@
 # CVFX-HW6-17
 ## Take videos by yourselves
-{%youtube 12ODHAw2cjM %}
+<!-- {%youtube 12ODHAw2cjM %} -->
+![](https://www.youtube.com/watch?v=12ODHAw2cjM)
 
 ## Make these visual effects with ORB-SLAM2
-{%youtube PIeZHb3VFAs %}
+<!-- {%youtube PIeZHb3VFAs %} -->
+![](https://www.youtube.com/watch?v=PIeZHb3VFAs)
+
 ## Make these visual effects with any post-production software
-{%youtube ZtHPBMFWa18 %}
+<!-- {%youtube ZtHPBMFWa18 %} -->
+![](https://www.youtube.com/watch?v=ZtHPBMFWa18)
+
 ## Compare above methods
 | metric | ORB-SLAM2 | AE |
 | -----| ------| ------ |
